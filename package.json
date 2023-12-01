@@ -10,7 +10,7 @@
     "serve:ssr:enode-app": "node dist/enode-app/server/server.mjs"
   },
   "engines": {
-    "node": ">=18.16.0"
+    "node": ">=18.18.0"
   },
   "private": true,
   "dependencies": {
