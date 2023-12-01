@@ -1,0 +1,35 @@
+<main class="main">
+  <div>
+    <button mat-button color="primary" [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  </div>
+
+  <div>
+    <h1 class="text-align-center">
+      Welcome by Essent's Enode application
+    </h1>
+  </div>
+
+  <div class="mat-app-background padding-30">
+    <div class="battery">
+      <h3> Batterij level: {{ batteryLevel }}%; </h3>
+    </div>
+    <mat-card id="moth-card">
+      <mat-card-title class="padding-30">Quick menu items</mat-card-title>
+      <div style="padding:0px 30px 30px;">
+        <button class="padding-30">
+          <a routerLink="/link-car" mat-button color="primary">Smart Charging Policy</a>
+        </button> <!-- smart charging plan smart policy  -->
+        <button class="padding-30">
+          <a routerLink="/link-car" mat-button color="primary">Car Registration</a>
+        </button>
+        <button class="padding-30">
+          <a routerLink="/detailed-car-info" mat-button color="primary">More car details</a>
+        </button>
+      </div>
+    </mat-card>
+  </div>
+</main>
