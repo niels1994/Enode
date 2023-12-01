@@ -9,9 +9,6 @@
     "test": "ng test",
     "serve:ssr:enode-app": "node dist/enode-app/server/server.mjs"
   },
-  "engines": {
-    "node": ">=18.18.0"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
